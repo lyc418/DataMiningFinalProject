@@ -8,8 +8,8 @@ from dataclasses import asdict
 from pathlib import Path
 
 import numpy as np
-import torch
 from sklearn.model_selection import train_test_split
+import torch
 from torch import Tensor, nn
 from torch.utils.data import DataLoader, WeightedRandomSampler
 from tqdm import tqdm

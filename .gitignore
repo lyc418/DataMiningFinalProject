@@ -12,3 +12,5 @@ data/
 # training artifacts
 models/
 outputs/
+
+.claude/
